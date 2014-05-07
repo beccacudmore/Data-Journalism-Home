@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>
+ML -
+ML 54826: American Robin
+</title>
+<link href='/audio/54826' rel='canonical'>
+<link href="/assets/screen-e34485b9f763379899d3a84a61d7c5c5.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="/assets/print-ba6cc69b50a67c6f926a47aceaffeaa0.css" media="print" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="/assets/ie-665c698ffe573589a7612bf35552bbbc.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/assets/raven-viewer-cb60fcf696ed5205f2669853d75de454.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/yui.2.5.1/build/fonts/fonts-min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/yui.2.5.1/build/button/assets/skins/sam/button.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/yui.2.5.1/build/tabview/assets/tabview-core.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/yui.2.5.1/build/tabview/assets/skins/sam/tabview-skin.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body class='ml-raven-viewer'>
+<script src="/yui.2.5.1/build/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="/yui.2.5.1/build/element/element-beta-min.js" type="text/javascript"></script>
+<script src="/yui.2.5.1/build/button/button-min.js" type="text/javascript"></script>
+<script src="/yui.2.5.1/build/tabview/tabview-min.js" type="text/javascript"></script>
+<script src="/yui.2.5.1/build/utilities/utilities.js" type="text/javascript"></script>
+<script src="/yui.2.5.1/build/slider/slider-min.js" type="text/javascript"></script>
+<script src="/assets/application-46878782b158949a2e7c31d933f8ef41.js" type="text/javascript"></script>
+<script src="/jwplayer/jwplayer.js" type="text/javascript"></script>
+<script>
+  //<![CDATA[
+    jwplayer.key="lsLFgObiA1Zce6egMm6nm4YG7jvPewYn2Axnxw==";
+  //]]>
+</script>
+<div class='yui-skin-sam' id='ravenViewer'>
+<div class='yui-navset' id='demo'>
+<table border='0' cellpadding='0' cellspacing='0'>
+<tr valign='top'>
+<td align='center' colspan='2' valign='top'>
+<center>
+<b>Macaulay Library's Raven Viewer</b>
+</center>
+</td>
+</tr>
+<tr valign='top'>
+<td rowspan='1' valign='top'>
+<div class='player'>
+<object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B' codebase='http://www.apple.com/qtactivex/qtplugin.cab' height='360' id='ravenviewerLite' width='435'>
+<param name='src' value='/media/RavenViewer2.mov'>
+<param name='controller' value='true'>
+<param name='autoplay' value='true'>
+<param name='showlogo' value='true'>
+<param name='cache' value='false'>
+<param name='MovieQTList' value='&lt;root&gt;&#x000A;        &lt;rs&gt;&#x000A;          &lt;rc&gt;1&lt;/rc&gt;&#x000A;          &lt;rd&gt;&#x000A;            &lt;asset&gt;&#x000A;              &lt;video&gt;0&lt;/video&gt;&#x000A;              &lt;audio&gt;2&lt;/audio&gt;&#x000A;              &lt;in&gt;33330&lt;/in&gt;&#x000A;              &lt;out&gt;Max&lt;/out&gt;&#x000A;              &lt;loadNotes&gt;0&lt;/loadNotes&gt;&#x000A;              &lt;goToNote&gt;0&lt;/goToNote&gt;&#x000A;              &lt;urlType&gt;2&lt;/urlType&gt;&#x000A;              &lt;mediaUrl&gt;http://media2.macaulaylibrary.org/Audio/Audio1/5/54826.mp3&lt;/mediaUrl&gt;&#x000A;            &lt;/asset&gt;&#x000A;            &lt;settings&gt;&#x000A;              &lt;metaSet&gt;&#x000A;                &lt;name&gt;Default settings&lt;/name&gt;&#x000A;                &lt;date&gt;1000&lt;/date&gt;&#x000A;              &lt;/metaSet&gt;&#x000A;            &lt;trks&gt;&#x000A;              &lt;dt&gt;1&lt;/dt&gt;&#x000A;              &lt;ds&gt;0&lt;/ds&gt;&#x000A;              &lt;vid&gt;0&lt;/vid&gt;&#x000A;              &lt;l&gt;1&lt;/l&gt;&#x000A;              &lt;r&gt;1&lt;/r&gt;&#x000A;              &lt;wav&gt;1&lt;/wav&gt;&#x000A;              &lt;spec&gt;1&lt;/spec&gt;&#x000A;              &lt;pws&gt;0&lt;/pws&gt;&#x000A;              &lt;pws&gt;0&lt;/pws&gt;&#x000A;            &lt;/trks&gt;&#x000A;            &lt;spec&gt;&#x000A;              &lt;fft&gt;512&lt;/fft&gt;&#x000A;              &lt;freq&gt;1&lt;/freq&gt;&#x000A;              &lt;contst&gt;50&lt;/contst&gt;&#x000A;              &lt;bright&gt;60&lt;/bright&gt;&#x000A;              &lt;yScale&gt;0&lt;/yScale&gt;&#x000A;              &lt;yOff&gt;0&lt;/yOff&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;            &lt;/spec&gt;&#x000A;            &lt;wav&gt;&#x000A;              &lt;amp&gt;60&lt;/amp&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;              &lt;avg&gt;0&lt;/avg&gt;&#x000A;            &lt;/wav&gt;&#x000A;            &lt;pws&gt;&#x000A;              &lt;avg&gt;0&lt;/avg&gt;&#x000A;              &lt;fill&gt;0&lt;/fill&gt;&#x000A;              &lt;scale&gt;0&lt;/scale&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;              &lt;yScale&gt;0&lt;/yScale&gt;&#x000A;              &lt;yOff&gt;0&lt;/yOff&gt;&#x000A;              &lt;xScale&gt;0&lt;/xScale&gt;&#x000A;              &lt;xOff&gt;0&lt;/xOff&gt;&#x000A;            &lt;/pws&gt;&#x000A;            &lt;app&gt;&#x000A;              &lt;lab&gt;1&lt;/lab&gt;&#x000A;              &lt;grid&gt;0&lt;/grid&gt;&#x000A;              &lt;playhead&gt;2&lt;/playhead&gt;&#x000A;              &lt;selOnly&gt;0&lt;/selOnly&gt;&#x000A;              &lt;loop&gt;0&lt;/loop&gt;&#x000A;              &lt;speed&gt;1&lt;/speed&gt;&#x000A;              &lt;zoom&gt;51&lt;/zoom&gt;&#x000A;              &lt;vol&gt;100&lt;/vol&gt;&#x000A;              &lt;bal&gt;0&lt;/bal&gt;&#x000A;              &lt;guide&gt;16712194&lt;/guide&gt;&#x000A;            &lt;/app&gt;&#x000A;          &lt;/settings&gt;&#x000A;        &lt;/rd&gt;&#x000A;      &lt;/rs&gt;&#x000A;    &lt;/root&gt;'>
+<embed autoplay='true' cache='false' controller='true' enablejavascript='true' height='360' movieQTList='&lt;root&gt;&#x000A;        &lt;rs&gt;&#x000A;          &lt;rc&gt;1&lt;/rc&gt;&#x000A;          &lt;rd&gt;&#x000A;            &lt;asset&gt;&#x000A;              &lt;video&gt;0&lt;/video&gt;&#x000A;              &lt;audio&gt;2&lt;/audio&gt;&#x000A;              &lt;in&gt;33330&lt;/in&gt;&#x000A;              &lt;out&gt;Max&lt;/out&gt;&#x000A;              &lt;loadNotes&gt;0&lt;/loadNotes&gt;&#x000A;              &lt;goToNote&gt;0&lt;/goToNote&gt;&#x000A;              &lt;urlType&gt;2&lt;/urlType&gt;&#x000A;              &lt;mediaUrl&gt;http://media2.macaulaylibrary.org/Audio/Audio1/5/54826.mp3&lt;/mediaUrl&gt;&#x000A;            &lt;/asset&gt;&#x000A;            &lt;settings&gt;&#x000A;              &lt;metaSet&gt;&#x000A;                &lt;name&gt;Default settings&lt;/name&gt;&#x000A;                &lt;date&gt;1000&lt;/date&gt;&#x000A;              &lt;/metaSet&gt;&#x000A;            &lt;trks&gt;&#x000A;              &lt;dt&gt;1&lt;/dt&gt;&#x000A;              &lt;ds&gt;0&lt;/ds&gt;&#x000A;              &lt;vid&gt;0&lt;/vid&gt;&#x000A;              &lt;l&gt;1&lt;/l&gt;&#x000A;              &lt;r&gt;1&lt;/r&gt;&#x000A;              &lt;wav&gt;1&lt;/wav&gt;&#x000A;              &lt;spec&gt;1&lt;/spec&gt;&#x000A;              &lt;pws&gt;0&lt;/pws&gt;&#x000A;              &lt;pws&gt;0&lt;/pws&gt;&#x000A;            &lt;/trks&gt;&#x000A;            &lt;spec&gt;&#x000A;              &lt;fft&gt;512&lt;/fft&gt;&#x000A;              &lt;freq&gt;1&lt;/freq&gt;&#x000A;              &lt;contst&gt;50&lt;/contst&gt;&#x000A;              &lt;bright&gt;60&lt;/bright&gt;&#x000A;              &lt;yScale&gt;0&lt;/yScale&gt;&#x000A;              &lt;yOff&gt;0&lt;/yOff&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;            &lt;/spec&gt;&#x000A;            &lt;wav&gt;&#x000A;              &lt;amp&gt;60&lt;/amp&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;              &lt;avg&gt;0&lt;/avg&gt;&#x000A;            &lt;/wav&gt;&#x000A;            &lt;pws&gt;&#x000A;              &lt;avg&gt;0&lt;/avg&gt;&#x000A;              &lt;fill&gt;0&lt;/fill&gt;&#x000A;              &lt;scale&gt;0&lt;/scale&gt;&#x000A;              &lt;color&gt;3&lt;/color&gt;&#x000A;              &lt;yScale&gt;0&lt;/yScale&gt;&#x000A;              &lt;yOff&gt;0&lt;/yOff&gt;&#x000A;              &lt;xScale&gt;0&lt;/xScale&gt;&#x000A;              &lt;xOff&gt;0&lt;/xOff&gt;&#x000A;            &lt;/pws&gt;&#x000A;            &lt;app&gt;&#x000A;              &lt;lab&gt;1&lt;/lab&gt;&#x000A;              &lt;grid&gt;0&lt;/grid&gt;&#x000A;              &lt;playhead&gt;2&lt;/playhead&gt;&#x000A;              &lt;selOnly&gt;0&lt;/selOnly&gt;&#x000A;              &lt;loop&gt;0&lt;/loop&gt;&#x000A;              &lt;speed&gt;1&lt;/speed&gt;&#x000A;              &lt;zoom&gt;51&lt;/zoom&gt;&#x000A;              &lt;vol&gt;100&lt;/vol&gt;&#x000A;              &lt;bal&gt;0&lt;/bal&gt;&#x000A;              &lt;guide&gt;16712194&lt;/guide&gt;&#x000A;            &lt;/app&gt;&#x000A;          &lt;/settings&gt;&#x000A;        &lt;/rd&gt;&#x000A;      &lt;/rs&gt;&#x000A;    &lt;/root&gt;' name='ravenviewerLite' pluginspage='http://macaulaylibrary.org/raven-viewer#download' showlog='true' src='/media/RavenViewer2.mov' type='video/quicktime' width='435'></embed>
+</object>
+</div>
+<div align='center'>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td>
+<div class='slider400' hidefocus='true' id='m_scrubSlider'>
+<div class='thumb' id='m_scrubThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td>
+<a href="javascript:document.ravenviewerLite.SetSpriteTrackVariable(12,839,'1');" id='playerButton1'>Beginning</a>
+</td>
+<td>
+<a href="javascript:document.ravenviewerLite.SetSpriteTrackVariable(12,842,'1');" id='playerButton2'>Rewind</a>
+</td>
+<td>
+<a href="javascript:document.ravenviewerLite.SetSpriteTrackVariable(12,837,'1'); player.startScrub();" id='playerButton3'>Play</a>
+</td>
+<td>
+<a href="javascript:document.ravenviewerLite.SetSpriteTrackVariable(12,838,'1'); player.stopScrub();" id='playerButton4'>Stop</a>
+</td>
+<td>
+<a href="javascript:document.ravenviewerLite.SetSpriteTrackVariable(12,840,'1');" id='playerButton5'>FastForward</a>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td align='right' valign='top' width='340'>
+<div>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+Loop:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='m_loopSlider'>
+<div class='thumb' id='m_loopThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td width='120'>
+<span id='m_loopSliderValue' name='m_loopSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Speed:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='m_speedSlider'>
+<div class='thumb' id='m_speedThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='m_speedSliderValue' name='m_speedSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Timeline Zoom:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='m_timelineZoomSlider'>
+<div class='thumb' id='m_timelineZoomThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='m_timelineZoomSliderValue' name='m_timelineZoomSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='center' colspan='3'>
+<span id='m_mouseValue' name='m_mouseValue'></span>
+</td>
+</tr>
+</table>
+</div>
+<div class='yui-content'>
+<div id='tabWaveform'>
+<p>
+<div align='center'>
+<h3>
+<b>Waveform Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+Amplitude:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='w_amplitudeSlider'>
+<div class='thumb' id='w_amplitudeThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td width='120'>
+<span id='w_amplitudeSliderValue' name='w_amplitudeSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Averaging:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='w_averagingSlider'>
+<div class='thumb' id='w_averagingThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='w_averagingSliderValue' name='w_averagingSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Color:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='w_colorSlider'>
+<div class='thumb' id='w_colorThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='w_colorSliderValue' name='w_colorSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Enable:
+</td>
+<td colspan='2'>
+<div class='yui-buttongroup' id='w_enableGroup'>
+<input id='w_enableHide' name='w_enableHide' type='radio' value='Hide'>
+<input checked='' id='w_enableShow' name='w_enableShow' type='radio' value='Show'>
+</input>
+</div>
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div id='tabSpectrogram'>
+<p>
+<div align='center'>
+<h3>
+<b>Spectrogram Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='_blank'>help</a>
+</div>
+<table border='0' cellpadding='0' cellspacing='2'>
+<tr>
+<td align='right'>
+FFT Size:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_fftSizeSlider'>
+<div class='thumb' id='s_fftSizeThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td width='120'>
+<span id='s_fftSizeSliderValue' name='s_fftSizeSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Upper Frequency Limit:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_upperFrequencySlider'>
+<div class='thumb' id='s_upperFrequencyThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_upperFrequencySliderValue' name='s_upperFrequencySliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Color:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_colorSlider'>
+<div class='thumb' id='s_colorThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_colorSliderValue' name='s_colorSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Contrast:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_contrastSlider'>
+<div class='thumb' id='s_contrastThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_contrastSliderValue' name='s_contrastSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Brightness:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_brightnessSlider'>
+<div class='thumb' id='s_brightnessThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_brightnessSliderValue' name='s_brightnessSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Y-Axis Scale:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_yScaleSlider'>
+<div class='thumb' id='s_yScaleThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_yScaleSliderValue' name='s_yScaleSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Y-Axis Offset:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='s_yOffsetSlider'>
+<div class='thumb' id='s_yOffsetThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='s_yOffsetSliderValue' name='s_yOffsetSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Enable:
+</td>
+<td colspan='2'>
+<div class='yui-buttongroup' id='s_enableGroup'>
+<input id='s_enableHide' name='s_enableHide' type='radio' value='Hide'>
+<input checked='' id='s_enableShow' name='s_enableShow' type='radio' value='Show'>
+</input>
+</div>
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div id='tabPowerSpectrum'>
+<p>
+<div align='center'>
+<h3>
+<b>PowerSpectrum Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+Average:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_averageSlider'>
+<div class='thumb' id='p_averageThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td width='120'>
+<span id='p_averageSliderValue' name='p_averageSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Color:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_colorSlider'>
+<div class='thumb' id='p_colorThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_colorSliderValue' name='p_colorSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Fill:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_fillSlider'>
+<div class='thumb' id='p_fillThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_fillSliderValue' name='p_fillSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Scale:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_scaleSlider'>
+<div class='thumb' id='p_scaleThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_scaleSliderValue' name='p_scaleSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+XScale:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_xScaleSlider'>
+<div class='thumb' id='p_xScaleThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_xScaleSliderValue' name='p_xScaleSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+XOffset:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_xOffsetSlider'>
+<div class='thumb' id='p_xOffsetThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_xOffsetSliderValue' name='p_xOffsetSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+YScale:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_yScaleSlider'>
+<div class='thumb' id='p_yScaleThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_yScaleSliderValue' name='p_yScaleSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+YOffset:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='p_yOffsetSlider'>
+<div class='thumb' id='p_yOffsetThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='p_yOffsetSliderValue' name='p_yOffsetSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Enable:
+</td>
+<td colspan='2'>
+<div class='yui-buttongroup' id='p_enableGroup'>
+<input id='p_enableHide' name='p_enableHide' type='radio' value='Hide'>
+<input checked='' id='p_enableShow' name='p_enableShow' type='radio' value='Show'>
+</input>
+</div>
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div id='tabAudio'>
+<p>
+<div align='center'>
+<h3>
+<b>Audio Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+Balance:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='a_balanceSlider'>
+<div class='thumb' id='a_balanceThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td width='120'>
+<span id='a_balanceSliderValue' name='a_balanceSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Bass:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='a_bassSlider'>
+<div class='thumb' id='a_bassThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='a_bassSliderValue' name='a_bassSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td>
+Channels:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='a_channelsSlider'>
+<div class='thumb' id='a_channelsThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='a_channelsSliderValue' name='a_channelsSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Treble:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='a_trebleSlider'>
+<div class='thumb' id='a_trebleThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='a_trebleSliderValue' name='a_trebleSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+Volume:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='a_volumeSlider'>
+<div class='thumb' id='a_volumeThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='a_volumeSliderValue' name='a_volumeSliderValue'></span>
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div id='tabVideo'>
+<p>
+<div align='center'>
+<h3>
+<b>Video Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+<div>Enable:</div>
+</td>
+<td colspan='2'>
+<div class='yui-buttongroup' id='v_enableGroup'>
+<input id='v_enableHide' name='v_enableHide' type='radio' value='Hide'>
+<input checked='' id='v_enableShow' name='v_enableShow' type='radio' value='Show'>
+</input>
+</div>
+</td>
+</tr>
+<tr>
+<td align='right'>
+
+</td>
+<td colspan='2'>
+
+</td>
+<td width='120'>
+
+</td>
+</tr>
+</table>
+</p>
+</div>
+<div id='tabCatalog'>
+<p>
+<div align='center'>
+<h3>
+<b>Catalog Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<div align='center'>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+<div>SciName:</div>
+</td>
+<td colspan='2'>
+<span id='v_sciNameValue' name='v_sciNameValue'>
+<i>Turdus migratorius</i>
+</span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>CommonName:</div>
+</td>
+<td colspan='2'>
+<span id='v_commonNameValue' name='v_commonNameValue'>American Robin</span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Recorded by:</div>
+</td>
+<td colspan='2'>
+<span id='v_recordistValue' name='v_recordistValue'>Martha J Fischer</span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Recorded Year:</div>
+</td>
+<td colspan='2'>
+<span id='v_recordedDate' name='v_recordedDate'>2009</span>
+</td>
+</tr>
+</table>
+</div>
+</p>
+</div>
+<div id='tabMedia'>
+<p>
+<div align='center'>
+<h3>
+<b>Media Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<div align='center'>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+<div>Audio Codec:</div>
+</td>
+<td colspan='2'>
+<span id='m_audioCodecValue' name='m_audioCodecValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Audio Data Rate:</div>
+</td>
+<td colspan='2'>
+<span id='m_audioDataRateValue' name='m_audioDataRateValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Audio Sample Rate:</div>
+</td>
+<td colspan='2'>
+<span id='m_audioSampleRateValue' name='m_audioSampleRateValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Video Aspect Ratio:</div>
+</td>
+<td colspan='2'>
+<span id='m_videoAspectRatioValue' name='m_videoAspectRatioValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Video Codec:</div>
+</td>
+<td colspan='2'>
+<span id='m_videoCodecValue' name='m_videoCodecValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Video FPS:</div>
+</td>
+<td colspan='2'>
+<span id='m_videoFpsValue' name='m_videoFpsValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Mouse:</div>
+</td>
+<td colspan='2'>
+<span id='m_mouseValue' name='m_mouseValue'></span>
+</td>
+</tr>
+</table>
+</div>
+</p>
+</div>
+<div id='tabDisplay'>
+<p>
+<div align='center'>
+<h3>
+<b>Display Tab</b>
+</h3>
+<a href='/link.do?destination=download' target='parent'>help</a>
+</div>
+<div align='center'>
+<table border='0' cellpadding='2' cellspacing='0'>
+<tr>
+<td align='right'>
+Playhead Color:
+</td>
+<td>
+<div class='slider' hidefocus='true' id='d_playheadColorSlider'>
+<div class='thumb' id='d_playheadColorThumb'>
+<img src='/yui.2.5.1/examples/slider/assets/thumb-rgb.png'>
+</div>
+</div>
+</td>
+<td>
+<span id='d_playheadColorSliderValue' name='d_playheadColorSliderValue'></span>
+</td>
+</tr>
+<tr>
+<td align='right'>
+<div>Axis Labels:</div>
+</td>
+<td colspan='2'>
+<div class='yui-buttongroup' id='d_axisGroup'>
+<input id='d_axisHide' name='d_axisHide' type='radio' value='Hide'>
+<input checked='' id='d_axisShow' name='d_axisShow' type='radio' value='Show'>
+</input>
+</div>
+</td>
+</tr>
+<tr>
+<td align='right'></td>
+<td></td>
+<td width='120'></td>
+</tr>
+</table>
+</div>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='2'>
+<ul class='yui-nav'>
+<li id='liWaveform'>
+<a href='#tabWaveform'>
+<em>Waveform</em>
+</a>
+</li>
+<li class='selected' id='liSpectrogram'>
+<a href='#tabSpectrogram'>
+<em>Spectrogram</em>
+</a>
+</li>
+<li id='liPowerSpectrum'>
+<a href='#tabPowerSpectrum'>
+<em>PowerSpectrum</em>
+</a>
+</li>
+<li id='liAudio'>
+<a href='#tabAudio'>
+<em>Audio</em>
+</a>
+</li>
+<li id='liVideo'>
+<a href='#tabVideo'>
+<em>Video</em>
+</a>
+</li>
+<li id='liCatalog'>
+<a href='#tabCatalog'>
+<em>CatalogRecord</em>
+</a>
+</li>
+<li id='liMedia'>
+<a href='#tabMedia'>
+<em>Media</em>
+</a>
+</li>
+<li id='liDisplay'>
+<a href='#tabDisplay'>
+<em>Display</em>
+</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<script>
+  //<![CDATA[
+    YAHOO.util.Event.onDOMReady(player.init, player, true);
+    YAHOO.util.Event.onDOMReady(player.startScrub, player, true);
+  //]]>
+</script>
+</div>
+
+
+<script>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    //_gaq.push(['_setAccount', 'UA-23317655-1']); // beta
+    _gaq.push(['_setAccount', 'UA-8293310-1']); // ml
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-3.newrelic.com","54da41a433","85142","dF5fTBdWWAlQQRwSRFJSWFUAVxsEQFdaDmtFUEddC2ZCDFBEVhM=",0,37,new Date().getTime(),"","","","",""]);</script></body>
+</html>
