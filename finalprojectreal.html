@@ -1,6 +1,6 @@
 <meta charset="utf-8"> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
 
 <style>
@@ -9,15 +9,22 @@ body {
     margin: auto;
     font-size: 2em;
 }
+A:visited {
+    color: black;
+}
+a:hover{
+    color:black;
+}
 
 table {
     width: 800px;
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 img{
-    margin-left: 175px;
+    margin-left: 145px;
     margin-top: 05px;
+    margin-bottom:-40px;
 }
 
 .header {
@@ -36,41 +43,42 @@ img{
 
 .playButton{
 	position:absolute;
+
 }
 
 .crowplayer {
-	color:black;
+	color:gray;
   cursor:hand;
-	font-size:20px;
+	font-size:13px;
     cursor:hand;
 }
 
 .doveplayer {
-  color:gray;
+  color:#f33;
   cursor:hand;
-  font-size:20px;
+  font-size:13px;
   cursor:hand;
 
 }
 .eagleplayer {
-  color:#f33;
-  font-size:20px;
+  color:#a6cee3;
+  font-size:13px;
     cursor:hand;
 
 }
 .goldfinchplayer {
-  color:#a6cee3;
-  font-size:20px;
+  color:#1f78b4;
+  font-size:13px;
   cursor:hand;
 }
 .robinplayer {
-  color:#1f78b4; 
-  font-size:20px;
+  color:#b2df8a; 
+  font-size:13px;
   cursor:hand;
 }
 .sparrowplayer {
-  color:#b2df8a;
-  font-size:20px;
+  color:#228B22;
+  font-size:13px;
   cursor:hand;
 }
 
@@ -80,155 +88,156 @@ img{
 <p class = "header" style="font-family:Courier New,sans-serif;font-weight:100;color:black;font-size:45px;text-align:center">Can you hear me now?
 <p class = "dek" style="font-family: Helvetica; sans-serif; font-weight:100; color:black;font-size:16px;text-align:center"> Birds croon the tune that's heard best in their home environment. </p>
 
-<img src="finalmapbwsmall.jpg" alt="finalmapbwsmall" width="525">
+<img src="finalmapbwsmall.jpg" alt="finalmapbwsmall" width="665">
 
 
 </table>
 <style type="text/css">
-.tg td{font-family:Abadi MT Condensed Light, sans-serif;font-size:16px;padding:10px 5px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Abadi MT Condensed Light, sans-serif;font-size:18px;font-weight:lighter;padding:10px 5px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:left}
-.tg .tg-hgcj{font-weight:bold;text-align:center}
+.tg td{font-family:Helvetica, sans-serif;font-size:17px;font-weight:100;text-align:center;padding:15px 5px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Helvetica, sans-serif;font-size:5px;font-weight:100;text-align:right;padding:15px 5px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{font-family:Helvetica,;text-align:left;font-size:18; font-weight:300;}
+.tg .tg-hgcj{font-family:Courier New, sans-serif;text-align:center}
 </style>
 <table class="tg">
   <tr>
     <th class="tg-hgcj"></th>
-    <th class="tg-s6z2">Pacific &nbsp; &nbsp; &nbsp;&nbsp;</th>
-    <th class="tg-031e">Rockies &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-031e">Midwest &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-031e">Southwest &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-031e">Northeast &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-031e">Southeast &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-s6z2"></th>
+    <th class="tg-031e"></th>
+    <th class="tg-031e"></th>
+    <th class="tg-031e"></th>
+    <th class="tg-031e"></th>
+    <th class="tg-031e"></th>
   </tr>
   <tr>
     <td class="tg-s6z2">American crow</td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowWAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio id="player" src="BirdSongsOGGshort/CrowWAedit.ogg"></audio>tonasket, WA</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowCOedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowCOedit.ogg"></audio>walker ranch, CO</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowWIedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowWIedit.ogg"></audio>kettle moraine state park, WI</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowTX.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowTX.ogg"></audio>brazos state park, TX</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowMA.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowMA.ogg"></audio>manomet observatory, MA</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowTNedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowTNedit.ogg"></audio>knoxville, TN</a>
 </div><td>
   </tr>
   <tr>
     <td class="tg-s6z2">Mourning dove</td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCAedit.ogg"></audio>los angeles, CA</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCOedit%20%281%29.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCOedit%20%281%29.ogg"></audio>cottonwood canyon, CO</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveMIedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveMIedit.ogg"></audio>st.clair county, MI</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveTXedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveTXedit.ogg"></audio>lost maple natural area, TX</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveVT.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveVT.ogg"></audio>mt. mansfield, VT</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveTN.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveTN.ogg"></audio>knoxville, TN</a>
 </div></td>
 
   </tr>
 <tr>
     <td class="tg-s6z2">Bald eagle</td>
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleWA.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleWA.ogg"></audio>juanita bay park, WA</a>
 </div></td>
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleIDedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleIDedit.ogg"></audio>goshen, ID</a>
 </div></td>
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleMN.ogg"></audio>&#9658;</a> </div></td> 
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleMN.ogg"></audio>nevis, MN</a> </div></td> 
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleAZ.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleAZ.ogg"></audio>granite reef, AZ</a>
 </div></td>
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleNYedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleNYedit.ogg"></audio>croton train station, NY</a>
 </div></td>
     <td class="div class="eagleplayer">
-    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleFL.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="eagleplayer"><audio src="BirdSongsOGGshort/EagleFL.ogg"></audio>orlando wetlands, FL</a>
 </div></td>
     </tr>
      <tr>
     <td class="tg-s6z2">American goldfinch</td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldWAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldWAedit.ogg"></audio>la conner, WA</a>
 </div></td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldWYedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldWYedit.ogg"></audio>cheyenne, WY</a>
 </div></td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GodlWIedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GodlWIedit.ogg"></audio>baxter's hallow, WI</a>
 </div></td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldTX.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldTX.ogg"></audio>arkansas wildlife refuge, TX</a>
 </div></td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldMA.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldMA.ogg"></audio>manomet observatory, MA</a>
 </div</td>
     <td class="div class="goldfinchplayer">
-    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldFLedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="goldfinchplayer"><audio src="BirdSongsOGGshort/GoldFLedit.ogg"></audio>tosohatchee wildlife area, FL</a>
 </div</td>
     </tr>
   <tr>
     <td class="tg-s6z2">American robin</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinCAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinCAedit.ogg"></audio>osoflaco lake, CA</a>
 </div</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinCOedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinCOedit.ogg"></audio>boulder, CO</a>
 </div</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinMIedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinMIedit.ogg"></audio>huron national forest, MI</a>
 </div</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinAZ.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinAZ.ogg"></audio>south fork road, AZ</a>
 </div</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="file:///Users/BeccaCudmore/Downloads/RobinPAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="file:///Users/BeccaCudmore/Downloads/RobinPAedit.ogg"></audio>huntingdon valley, PA</a>
 </div</td>
     <td class="div class="robinplayer">
-    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinFLedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="robinplayer"><audio src="BirdSongsOGGshort/RobinFLedit.ogg"></audio>pine island conservation area, FL</a>
 </div</td>
     </tr>
     <tr>
     <td class="tg-s6z2">Song sparrow</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowWAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowWAedit.ogg"></audio>seattle, WA</a>
 </div</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowUTedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowUTedit.ogg"></audio>tonaquint park, UT</a>
 </div</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowMIedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowMIedit.ogg"></audio>union bay campground, MI</a>
 </div</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowAZedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowAZedit.ogg"></audio>agua fria river, AZ</a>
 </div</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowPAedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowPAedit.ogg"></audio>lower moreland, PA</a>
 </div</td>
     <td class="div class="sparrowplayer">
-    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowTNedit.ogg"></audio>&#9658;</a>
+    <a onclick="this.firstChild.play()" class="sparrowplayer"><audio src="BirdSongsOGGshort/SparrowTNedit.ogg"></audio>knoxville, TN</a>
 </div></td>
     </tr>
 </table>
-<p class= "byline" style="font-family: Helvetica, sans-serif;font-weight:100;color:black;font-size:10px;text-align:left">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By BECCA CUDMORE</p>
-<p class= "byline" style="font-family: Helvetica, sans-serif;font-weight:100;color:gray;font-size:9px;text-align:left">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Source: NASA Earth Observatory and Xeno-Canto</p>
+
+<p class= "byline" style="font-family: Helvetica, sans-serif;font-weight:100;color:black;font-size:9px;text-align:left">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  By BECCA CUDMORE</p>
+<p class= "byline" style="font-family: Helvetica, sans-serif;font-weight:100;color:gray;font-size:8px;text-align:left">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;  Source: NASA Earth Observatory and Xeno-Canto</p>
 <br>
 <p class="text" style="font-family: Helvetica, sans-serif;font-weight:100;color:black;font-size:14px;text-align:justify;margin-left:20px;margin-right:20px;">A robin on a fencepost in Oregon sounds slightly different than its cousin in New York. Birds sing as a primary means to find a mate and to protect their territory. So it is no surprise they're skilled revisers when it comes to figuring out which pitch transmits best in their home environment. After all, when sex and survival are on the line, you want to make sure your voice is heard. 
 
