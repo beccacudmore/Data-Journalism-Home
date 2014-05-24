@@ -3,6 +3,11 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
 
+<script 
+></script>
+
+
+
 <style>
 body {
     width: 950px;
@@ -22,7 +27,7 @@ table {
 }
 
 img{
-    margin-left: 145px;
+    margin-left: 150px;
     margin-top: 05px;
     margin-bottom:-40px;
 }
@@ -43,7 +48,19 @@ img{
 
 .playButton{
 	position:absolute;
+    display: hidden;
 
+}
+
+.pauseButton{
+    position:absolute;
+    color:black;
+    cursor:hand;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left:20px;
+
+   ;
 }
 
 .crowplayer {
@@ -88,12 +105,12 @@ img{
 <p class = "header" style="font-family:Courier New,sans-serif;font-weight:100;color:black;font-size:45px;text-align:center">Can you hear me now?
 <p class = "dek" style="font-family: Helvetica; sans-serif; font-weight:100; color:black;font-size:16px;text-align:center"> Birds croon the tune that's heard best in their home environment. </p>
 
-<img src="finalmapbwsmall.jpg" alt="finalmapbwsmall" width="665">
+<img src="finalmapbwsmall.jpg" alt="finalmapbwsmall" width="600">
 
 
 </table>
 <style type="text/css">
-.tg td{font-family:Helvetica, sans-serif;font-size:17px;font-weight:100;text-align:center;padding:15px 5px;overflow:hidden;word-break:normal;}
+.tg td{font-family:Helvetica, sans-serif;font-size:16px;font-weight:100;text-align:center;padding:15px 5px;overflow:hidden;word-break:normal;}
 .tg th{font-family:Helvetica, sans-serif;font-size:5px;font-weight:100;text-align:right;padding:15px 5px;overflow:hidden;word-break:normal;}
 .tg .tg-s6z2{font-family:Helvetica,;text-align:left;font-size:18; font-weight:300;}
 .tg .tg-hgcj{font-family:Courier New, sans-serif;text-align:center}
@@ -114,9 +131,6 @@ img{
     <a onclick="this.firstChild.play()" class="crowplayer"><audio id="player" src="BirdSongsOGGshort/CrowWAedit.ogg"></audio>tonasket, WA</a>
 </div></td>
     <td class="<div class="crowplayer">
-    <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowCOedit.ogg"></audio>walker ranch, CO</a>
-</div></td>
-    <td class="<div class="crowplayer">
     <a onclick="this.firstChild.play()" class="crowplayer"><audio src="BirdSongsOGGshort/CrowWIedit.ogg"></audio>kettle moraine state park, WI</a>
 </div></td>
     <td class="<div class="crowplayer">
@@ -135,7 +149,7 @@ img{
     <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCAedit.ogg"></audio>los angeles, CA</a>
 </div></td>
     <td class="div class="doveplayer">
-    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCOedit%20%281%29.ogg"></audio>cottonwood canyon, CO</a>
+    <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveCOedit.ogg"></audio>cottonwood canyon, CO</a>
 </div></td>
     <td class="div class="doveplayer">
     <a onclick="this.firstChild.play()" class="doveplayer"><audio src="BirdSongsOGGshort/DoveMIedit.ogg"></audio>st.clair county, MI</a>
